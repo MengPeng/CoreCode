@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0502E5B71659C98700E76E39 /* Plist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5A51659C98700E76E39 /* Plist.h */; };
+		0502E5B81659C98700E76E39 /* Plist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5A61659C98700E76E39 /* Plist.m */; };
+		0502E5B91659C98700E76E39 /* MCSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5A91659C98700E76E39 /* MCSegmentedControl.h */; };
+		0502E5BA1659C98700E76E39 /* MCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AA1659C98700E76E39 /* MCSegmentedControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0502E5BB1659C98700E76E39 /* DCRoundSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5AC1659C98700E76E39 /* DCRoundSwitch.h */; };
+		0502E5BC1659C98700E76E39 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AD1659C98700E76E39 /* DCRoundSwitch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0502E5BD1659C98700E76E39 /* DCRoundSwitchKnobLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5AE1659C98700E76E39 /* DCRoundSwitchKnobLayer.h */; };
+		0502E5BE1659C98700E76E39 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AF1659C98700E76E39 /* DCRoundSwitchKnobLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0502E5BF1659C98700E76E39 /* DCRoundSwitchOutlineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B01659C98700E76E39 /* DCRoundSwitchOutlineLayer.h */; };
+		0502E5C01659C98700E76E39 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B11659C98700E76E39 /* DCRoundSwitchOutlineLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0502E5C11659C98700E76E39 /* DCRoundSwitchToggleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B21659C98700E76E39 /* DCRoundSwitchToggleLayer.h */; };
+		0502E5C21659C98700E76E39 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B31659C98700E76E39 /* DCRoundSwitchToggleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0502E5C31659C98700E76E39 /* DatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B51659C98700E76E39 /* DatabaseHelper.h */; };
+		0502E5C41659C98700E76E39 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B61659C98700E76E39 /* DatabaseHelper.m */; };
+		0505A0CD1637D25600A1291B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0505A0CB1637D25600A1291B /* InfoPlist.strings */; };
+		0505A0D31637D30400A1291B /* CoreCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0505A06B1637C1E000A1291B /* CoreCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0505A0D41637D30700A1291B /* CoreCode-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0505A06A1637C1E000A1291B /* CoreCode-Prefix.pch */; };
+		0505A0DC1637D6BD00A1291B /* CoreCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505A06D1637C1E000A1291B /* CoreCode.m */; };
+		0505A0E01637D88D00A1291B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0505A0DE1637D88D00A1291B /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0505A0E11637D88D00A1291B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505A0DF1637D88D00A1291B /* Reachability.m */; };
+		05843575165B5C8E00D35424 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05843574165B5C8E00D35424 /* CoreGraphics.framework */; };
+		05843577165B5CB400D35424 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05843576165B5CB400D35424 /* UIKit.framework */; };
+		05843579165B5D2E00D35424 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05843578165B5D2E00D35424 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0502E5A51659C98700E76E39 /* Plist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plist.h; sourceTree = "<group>"; };
+		0502E5A61659C98700E76E39 /* Plist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plist.m; sourceTree = "<group>"; };
+		0502E5A91659C98700E76E39 /* MCSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSegmentedControl.h; sourceTree = "<group>"; };
+		0502E5AA1659C98700E76E39 /* MCSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSegmentedControl.m; sourceTree = "<group>"; };
+		0502E5AC1659C98700E76E39 /* DCRoundSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitch.h; sourceTree = "<group>"; };
+		0502E5AD1659C98700E76E39 /* DCRoundSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitch.m; sourceTree = "<group>"; };
+		0502E5AE1659C98700E76E39 /* DCRoundSwitchKnobLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchKnobLayer.h; sourceTree = "<group>"; };
+		0502E5AF1659C98700E76E39 /* DCRoundSwitchKnobLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchKnobLayer.m; sourceTree = "<group>"; };
+		0502E5B01659C98700E76E39 /* DCRoundSwitchOutlineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchOutlineLayer.h; sourceTree = "<group>"; };
+		0502E5B11659C98700E76E39 /* DCRoundSwitchOutlineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchOutlineLayer.m; sourceTree = "<group>"; };
+		0502E5B21659C98700E76E39 /* DCRoundSwitchToggleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCRoundSwitchToggleLayer.h; sourceTree = "<group>"; };
+		0502E5B31659C98700E76E39 /* DCRoundSwitchToggleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCRoundSwitchToggleLayer.m; sourceTree = "<group>"; };
+		0502E5B51659C98700E76E39 /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
+		0502E5B61659C98700E76E39 /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
+		0505A0661637C1E000A1291B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0505A06A1637C1E000A1291B /* CoreCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreCode-Prefix.pch"; sourceTree = "<group>"; };
+		0505A06B1637C1E000A1291B /* CoreCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCode.h; sourceTree = "<group>"; };
+		0505A06D1637C1E000A1291B /* CoreCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreCode.m; sourceTree = "<group>"; };
+		0505A0C11637D25600A1291B /* CoreCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0505A0CA1637D25600A1291B /* CoreCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreCode-Info.plist"; sourceTree = "<group>"; };
+		0505A0CC1637D25600A1291B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0505A0CE1637D25600A1291B /* CoreCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreCode-Prefix.pch"; sourceTree = "<group>"; };
+		0505A0DE1637D88D00A1291B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Net/Reachability.h; sourceTree = "<group>"; };
+		0505A0DF1637D88D00A1291B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Net/Reachability.m; sourceTree = "<group>"; };
+		05843574165B5C8E00D35424 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05843576165B5CB400D35424 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05843578165B5D2E00D35424 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0505A0BE1637D25600A1291B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05843579165B5D2E00D35424 /* QuartzCore.framework in Frameworks */,
+				05843577165B5CB400D35424 /* UIKit.framework in Frameworks */,
+				05843575165B5C8E00D35424 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0502E5A41659C98700E76E39 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0502E5A51659C98700E76E39 /* Plist.h */,
+				0502E5A61659C98700E76E39 /* Plist.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		0502E5A71659C98700E76E39 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				0502E5A81659C98700E76E39 /* MCSegmentedControl */,
+				0502E5AB1659C98700E76E39 /* Switch */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		0502E5A81659C98700E76E39 /* MCSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				0502E5A91659C98700E76E39 /* MCSegmentedControl.h */,
+				0502E5AA1659C98700E76E39 /* MCSegmentedControl.m */,
+			);
+			path = MCSegmentedControl;
+			sourceTree = "<group>";
+		};
+		0502E5AB1659C98700E76E39 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				0502E5AC1659C98700E76E39 /* DCRoundSwitch.h */,
+				0502E5AD1659C98700E76E39 /* DCRoundSwitch.m */,
+				0502E5AE1659C98700E76E39 /* DCRoundSwitchKnobLayer.h */,
+				0502E5AF1659C98700E76E39 /* DCRoundSwitchKnobLayer.m */,
+				0502E5B01659C98700E76E39 /* DCRoundSwitchOutlineLayer.h */,
+				0502E5B11659C98700E76E39 /* DCRoundSwitchOutlineLayer.m */,
+				0502E5B21659C98700E76E39 /* DCRoundSwitchToggleLayer.h */,
+				0502E5B31659C98700E76E39 /* DCRoundSwitchToggleLayer.m */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		0502E5B41659C98700E76E39 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				0502E5B51659C98700E76E39 /* DatabaseHelper.h */,
+				0502E5B61659C98700E76E39 /* DatabaseHelper.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		0505A0581637C1E000A1291B = {
+			isa = PBXGroup;
+			children = (
+				05843578165B5D2E00D35424 /* QuartzCore.framework */,
+				0505A0681637C1E000A1291B /* CoreCode */,
+				0505A0C81637D25600A1291B /* CoreCode */,
+				0505A0651637C1E000A1291B /* Frameworks */,
+				0505A0641637C1E000A1291B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0505A0641637C1E000A1291B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0505A0C11637D25600A1291B /* CoreCode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0505A0651637C1E000A1291B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05843574165B5C8E00D35424 /* CoreGraphics.framework */,
+				05843576165B5CB400D35424 /* UIKit.framework */,
+				0505A0661637C1E000A1291B /* Foundation.framework */,
+				0505A0C41637D25600A1291B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0505A0681637C1E000A1291B /* CoreCode */ = {
+			isa = PBXGroup;
+			children = (
+				0502E5A41659C98700E76E39 /* Configuration */,
+				0502E5A71659C98700E76E39 /* Controls */,
+				0502E5B41659C98700E76E39 /* DataBase */,
+				0505A0DD1637D86800A1291B /* Net */,
+				0505A06B1637C1E000A1291B /* CoreCode.h */,
+				0505A06D1637C1E000A1291B /* CoreCode.m */,
+				0505A0691637C1E000A1291B /* Supporting Files */,
+			);
+			path = CoreCode;
+			sourceTree = "<group>";
+		};
+		0505A0691637C1E000A1291B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0505A06A1637C1E000A1291B /* CoreCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0505A0C41637D25600A1291B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0505A0C81637D25600A1291B /* CoreCode */ = {
+			isa = PBXGroup;
+			children = (
+				0505A0C91637D25600A1291B /* Supporting Files */,
+			);
+			path = CoreCode;
+			sourceTree = "<group>";
+		};
+		0505A0C91637D25600A1291B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0505A0CA1637D25600A1291B /* CoreCode-Info.plist */,
+				0505A0CB1637D25600A1291B /* InfoPlist.strings */,
+				0505A0CE1637D25600A1291B /* CoreCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0505A0DD1637D86800A1291B /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				0505A0DE1637D88D00A1291B /* Reachability.h */,
+				0505A0DF1637D88D00A1291B /* Reachability.m */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0505A0D21637D30000A1291B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505A0D31637D30400A1291B /* CoreCode.h in Headers */,
+				0505A0E01637D88D00A1291B /* Reachability.h in Headers */,
+				0505A0D41637D30700A1291B /* CoreCode-Prefix.pch in Headers */,
+				0502E5B71659C98700E76E39 /* Plist.h in Headers */,
+				0502E5B91659C98700E76E39 /* MCSegmentedControl.h in Headers */,
+				0502E5BB1659C98700E76E39 /* DCRoundSwitch.h in Headers */,
+				0502E5BD1659C98700E76E39 /* DCRoundSwitchKnobLayer.h in Headers */,
+				0502E5BF1659C98700E76E39 /* DCRoundSwitchOutlineLayer.h in Headers */,
+				0502E5C11659C98700E76E39 /* DCRoundSwitchToggleLayer.h in Headers */,
+				0502E5C31659C98700E76E39 /* DatabaseHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0505A0C01637D25600A1291B /* CoreCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0505A0CF1637D25600A1291B /* Build configuration list for PBXNativeTarget "CoreCode" */;
+			buildPhases = (
+				0505A0BD1637D25600A1291B /* Sources */,
+				0505A0BE1637D25600A1291B /* Frameworks */,
+				0505A0BF1637D25600A1291B /* Resources */,
+				0505A0D21637D30000A1291B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreCode;
+			productName = CoreCode;
+			productReference = 0505A0C11637D25600A1291B /* CoreCode.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0505A05A1637C1E000A1291B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ampy;
+			};
+			buildConfigurationList = 0505A05D1637C1E000A1291B /* Build configuration list for PBXProject "CoreCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0505A0581637C1E000A1291B;
+			productRefGroup = 0505A0641637C1E000A1291B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0505A0C01637D25600A1291B /* CoreCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0505A0BF1637D25600A1291B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505A0CD1637D25600A1291B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0505A0BD1637D25600A1291B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0505A0DC1637D6BD00A1291B /* CoreCode.m in Sources */,
+				0505A0E11637D88D00A1291B /* Reachability.m in Sources */,
+				0502E5B81659C98700E76E39 /* Plist.m in Sources */,
+				0502E5BA1659C98700E76E39 /* MCSegmentedControl.m in Sources */,
+				0502E5BC1659C98700E76E39 /* DCRoundSwitch.m in Sources */,
+				0502E5BE1659C98700E76E39 /* DCRoundSwitchKnobLayer.m in Sources */,
+				0502E5C01659C98700E76E39 /* DCRoundSwitchOutlineLayer.m in Sources */,
+				0502E5C21659C98700E76E39 /* DCRoundSwitchToggleLayer.m in Sources */,
+				0502E5C41659C98700E76E39 /* DatabaseHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0505A0CB1637D25600A1291B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0505A0CC1637D25600A1291B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0505A06F1637C1E000A1291B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0505A0701637C1E000A1291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0505A0D01637D25600A1291B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreCode/CoreCode-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CoreCode/CoreCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		0505A0D11637D25600A1291B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreCode/CoreCode-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CoreCode/CoreCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0505A05D1637C1E000A1291B /* Build configuration list for PBXProject "CoreCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0505A06F1637C1E000A1291B /* Debug */,
+				0505A0701637C1E000A1291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0505A0CF1637D25600A1291B /* Build configuration list for PBXNativeTarget "CoreCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0505A0D01637D25600A1291B /* Debug */,
+				0505A0D11637D25600A1291B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0505A05A1637C1E000A1291B /* Project object */;
+}

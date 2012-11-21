@@ -130,7 +130,6 @@
 		0505A0581637C1E000A1291B = {
 			isa = PBXGroup;
 			children = (
-				05843578165B5D2E00D35424 /* QuartzCore.framework */,
 				0505A0681637C1E000A1291B /* CoreCode */,
 				0505A0C81637D25600A1291B /* CoreCode */,
 				0505A0651637C1E000A1291B /* Frameworks */,
@@ -149,6 +148,7 @@
 		0505A0651637C1E000A1291B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05843578165B5D2E00D35424 /* QuartzCore.framework */,
 				05843574165B5C8E00D35424 /* CoreGraphics.framework */,
 				05843576165B5CB400D35424 /* UIKit.framework */,
 				0505A0661637C1E000A1291B /* Foundation.framework */,

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>KindEditor</title>
+		<style>
+			form {
+				margin: 0px;
+				padding: 0px;
+			}
+			textarea {
+				display: block;
+			}
+		</style>
+        
+		<script charset="utf-8" src="kindeditor-min.js"></script>
+		<script charset="utf-8" src="../lang/zh_CN.js"></script>
+        <!--引入桥文件-->
+        <script charset="utf-8" src="TGJSBridge.js"></script>
+        <!--引入桥文件-->
+		<script>
+			KindEditor.ready(function(K) {
+				editor = K.create('textarea[name="content"]', {
+					width:400,
+                    height:300,
+                    //UIWebView下，需要指定body的宽度，以便正确换行。这里同时指定了缺省字体
+                    cssData:"body {width:400px;} body, td {font:16px/1.5 \"sans serif\",tahoma,verdana,helvetica;}",
+                    //cssPath:"../themes/simple/simple.css",
+					//items : ['bold','media','image','fontsize']
+                                  items:['formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+                                         'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', ]
+				});
+			});
+			function show()
+			{
+              jsBridge.postNotification('GetWebHTMLEditorContent',{HTMLContent:editor.html()});	
+			}
+            //注册Test 消息
+            jsBridge.bind('GetWebHTMLEditorContent', function(object){
+                          show();                
+            });
+            jsBridge.bind('SetWebHTMLEditorContent',function(object){
+                          editor.insertHtml(object.HTMLContent);
+            });
+		</script>
+	</head>
+	<body style="background-color: transparent">
+		<form>
+			<textarea id="content" name="content" style="visibility:hidden;"></textarea>
+		</form>
+	</body>
+</html>

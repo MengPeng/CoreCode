@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIWebView.h>
 @class TGJSBridge;
 
 //委托

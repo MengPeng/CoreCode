@@ -6,32 +6,56 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0524E07A16660962005FC952 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0524E07B16660962005FC952 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				0524E0801666097B005FC952 /* ShellScript */,
+			);
+			dependencies = (
+				0524E07F16660979005FC952 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0502E5B71659C98700E76E39 /* Plist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5A51659C98700E76E39 /* Plist.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5B81659C98700E76E39 /* Plist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5A61659C98700E76E39 /* Plist.m */; };
-		0502E5B91659C98700E76E39 /* MCSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5A91659C98700E76E39 /* MCSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5BA1659C98700E76E39 /* MCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AA1659C98700E76E39 /* MCSegmentedControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0502E5BB1659C98700E76E39 /* DCRoundSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5AC1659C98700E76E39 /* DCRoundSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5BC1659C98700E76E39 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AD1659C98700E76E39 /* DCRoundSwitch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0502E5BD1659C98700E76E39 /* DCRoundSwitchKnobLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5AE1659C98700E76E39 /* DCRoundSwitchKnobLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5BE1659C98700E76E39 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AF1659C98700E76E39 /* DCRoundSwitchKnobLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0502E5BF1659C98700E76E39 /* DCRoundSwitchOutlineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B01659C98700E76E39 /* DCRoundSwitchOutlineLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5C01659C98700E76E39 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B11659C98700E76E39 /* DCRoundSwitchOutlineLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0502E5C11659C98700E76E39 /* DCRoundSwitchToggleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B21659C98700E76E39 /* DCRoundSwitchToggleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5C21659C98700E76E39 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B31659C98700E76E39 /* DCRoundSwitchToggleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0502E5C31659C98700E76E39 /* DatabaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B51659C98700E76E39 /* DatabaseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0502E5C41659C98700E76E39 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B61659C98700E76E39 /* DatabaseHelper.m */; };
-		0505A0CD1637D25600A1291B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0505A0CB1637D25600A1291B /* InfoPlist.strings */; };
-		0505A0D31637D30400A1291B /* CoreCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0505A06B1637C1E000A1291B /* CoreCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0505A0D41637D30700A1291B /* CoreCode-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 0505A06A1637C1E000A1291B /* CoreCode-Prefix.pch */; };
-		0505A0DC1637D6BD00A1291B /* CoreCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505A06D1637C1E000A1291B /* CoreCode.m */; };
-		0505A0E01637D88D00A1291B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0505A0DE1637D88D00A1291B /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0505A0E11637D88D00A1291B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505A0DF1637D88D00A1291B /* Reachability.m */; };
-		053663B716648529008314AB /* RTRichEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 053662F816648529008314AB /* RTRichEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		053663B816648529008314AB /* RTRichEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 053662F916648529008314AB /* RTRichEditor.m */; };
-		053663B916648529008314AB /* TGJSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 053662FA16648529008314AB /* TGJSBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		053663BA16648529008314AB /* TGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 053662FB16648529008314AB /* TGJSBridge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E06F166608BC005FC952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0505A0661637C1E000A1291B /* Foundation.framework */; };
+		0524E076166608BC005FC952 /* CoreCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0524E075166608BC005FC952 /* CoreCode.m */; };
+		0524E082166609BC005FC952 /* Plist.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5A51659C98700E76E39 /* Plist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E083166609BC005FC952 /* RTRichEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 053662F816648529008314AB /* RTRichEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E084166609BC005FC952 /* TGJSBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 053662FA16648529008314AB /* TGJSBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E085166609BC005FC952 /* MCSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5A91659C98700E76E39 /* MCSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E086166609BC005FC952 /* DCRoundSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5AC1659C98700E76E39 /* DCRoundSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E087166609BC005FC952 /* DCRoundSwitchKnobLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5AE1659C98700E76E39 /* DCRoundSwitchKnobLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E088166609BC005FC952 /* DCRoundSwitchOutlineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B01659C98700E76E39 /* DCRoundSwitchOutlineLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E089166609BC005FC952 /* DCRoundSwitchToggleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0502E5B21659C98700E76E39 /* DCRoundSwitchToggleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E08A166609BC005FC952 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0505A0DE1637D88D00A1291B /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E08B166609BC005FC952 /* CoreCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0524E073166608BC005FC952 /* CoreCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0524E09916660A82005FC952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0524E0271665FEB4005FC952 /* UIKit.framework */; };
+		0524E09A16660B68005FC952 /* Plist.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5A61659C98700E76E39 /* Plist.m */; };
+		0524E09B16660B68005FC952 /* RTRichEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 053662F916648529008314AB /* RTRichEditor.m */; };
+		0524E09C16660B68005FC952 /* TGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 053662FB16648529008314AB /* TGJSBridge.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E09D16660B68005FC952 /* MCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AA1659C98700E76E39 /* MCSegmentedControl.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E09E16660B68005FC952 /* DCRoundSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AD1659C98700E76E39 /* DCRoundSwitch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E09F16660B68005FC952 /* DCRoundSwitchKnobLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5AF1659C98700E76E39 /* DCRoundSwitchKnobLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E0A016660B68005FC952 /* DCRoundSwitchOutlineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B11659C98700E76E39 /* DCRoundSwitchOutlineLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E0A116660B68005FC952 /* DCRoundSwitchToggleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B31659C98700E76E39 /* DCRoundSwitchToggleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0524E0A216660B68005FC952 /* DatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502E5B61659C98700E76E39 /* DatabaseHelper.m */; };
+		0524E0A316660B68005FC952 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505A0DF1637D88D00A1291B /* Reachability.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0524E07E16660979005FC952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0505A05A1637C1E000A1291B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0524E06D166608BC005FC952;
+			remoteInfo = CoreCode;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0502E5A51659C98700E76E39 /* Plist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plist.h; sourceTree = "<group>"; };
@@ -49,15 +73,13 @@
 		0502E5B51659C98700E76E39 /* DatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseHelper.h; sourceTree = "<group>"; };
 		0502E5B61659C98700E76E39 /* DatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseHelper.m; sourceTree = "<group>"; };
 		0505A0661637C1E000A1291B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0505A06A1637C1E000A1291B /* CoreCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreCode-Prefix.pch"; sourceTree = "<group>"; };
-		0505A06B1637C1E000A1291B /* CoreCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCode.h; sourceTree = "<group>"; };
-		0505A06D1637C1E000A1291B /* CoreCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreCode.m; sourceTree = "<group>"; };
-		0505A0C11637D25600A1291B /* CoreCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0505A0CA1637D25600A1291B /* CoreCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreCode-Info.plist"; sourceTree = "<group>"; };
-		0505A0CC1637D25600A1291B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0505A0CE1637D25600A1291B /* CoreCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreCode-Prefix.pch"; sourceTree = "<group>"; };
 		0505A0DE1637D88D00A1291B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Net/Reachability.h; sourceTree = "<group>"; };
 		0505A0DF1637D88D00A1291B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Net/Reachability.m; sourceTree = "<group>"; };
+		0524E0271665FEB4005FC952 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0524E06E166608BC005FC952 /* libCoreCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCoreCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0524E072166608BC005FC952 /* CoreCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreCode-Prefix.pch"; sourceTree = "<group>"; };
+		0524E073166608BC005FC952 /* CoreCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreCode.h; sourceTree = "<group>"; };
+		0524E075166608BC005FC952 /* CoreCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreCode.m; sourceTree = "<group>"; };
 		0536621E16648529008314AB /* kindeditor-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "kindeditor-min.js"; sourceTree = "<group>"; };
 		0536621F16648529008314AB /* kindeditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = kindeditor.js; sourceTree = "<group>"; };
 		0536622116648529008314AB /* zh_CN.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zh_CN.js; sourceTree = "<group>"; };
@@ -252,10 +274,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0505A0BE1637D25600A1291B /* Frameworks */ = {
+		0524E06B166608BC005FC952 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0524E09916660A82005FC952 /* UIKit.framework in Frameworks */,
+				0524E06F166608BC005FC952 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +342,7 @@
 			isa = PBXGroup;
 			children = (
 				0505A0681637C1E000A1291B /* CoreCode */,
-				0505A0C81637D25600A1291B /* CoreCode */,
+				0524E070166608BC005FC952 /* CoreCode */,
 				0505A0651637C1E000A1291B /* Frameworks */,
 				0505A0641637C1E000A1291B /* Products */,
 			);
@@ -327,7 +351,7 @@
 		0505A0641637C1E000A1291B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0505A0C11637D25600A1291B /* CoreCode.framework */,
+				0524E06E166608BC005FC952 /* libCoreCode.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -335,6 +359,7 @@
 		0505A0651637C1E000A1291B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0524E0271665FEB4005FC952 /* UIKit.framework */,
 				0505A0661637C1E000A1291B /* Foundation.framework */,
 				0505A0C41637D25600A1291B /* Other Frameworks */,
 			);
@@ -344,23 +369,13 @@
 		0505A0681637C1E000A1291B /* CoreCode */ = {
 			isa = PBXGroup;
 			children = (
+				0524E0021665F133005FC952 /* Supporting Files */,
 				0502E5A41659C98700E76E39 /* Configuration */,
 				0502E5A71659C98700E76E39 /* Controls */,
 				0502E5B41659C98700E76E39 /* DataBase */,
 				0505A0DD1637D86800A1291B /* Net */,
-				0505A06B1637C1E000A1291B /* CoreCode.h */,
-				0505A06D1637C1E000A1291B /* CoreCode.m */,
-				0505A0691637C1E000A1291B /* Supporting Files */,
 			);
 			path = CoreCode;
-			sourceTree = "<group>";
-		};
-		0505A0691637C1E000A1291B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0505A06A1637C1E000A1291B /* CoreCode-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0505A0C41637D25600A1291B /* Other Frameworks */ = {
@@ -370,24 +385,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		0505A0C81637D25600A1291B /* CoreCode */ = {
-			isa = PBXGroup;
-			children = (
-				0505A0C91637D25600A1291B /* Supporting Files */,
-			);
-			path = CoreCode;
-			sourceTree = "<group>";
-		};
-		0505A0C91637D25600A1291B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0505A0CA1637D25600A1291B /* CoreCode-Info.plist */,
-				0505A0CB1637D25600A1291B /* InfoPlist.strings */,
-				0505A0CE1637D25600A1291B /* CoreCode-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		0505A0DD1637D86800A1291B /* Net */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +392,31 @@
 				0505A0DF1637D88D00A1291B /* Reachability.m */,
 			);
 			name = Net;
+			sourceTree = "<group>";
+		};
+		0524E0021665F133005FC952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0524E070166608BC005FC952 /* CoreCode */ = {
+			isa = PBXGroup;
+			children = (
+				0524E073166608BC005FC952 /* CoreCode.h */,
+				0524E075166608BC005FC952 /* CoreCode.m */,
+				0524E071166608BC005FC952 /* Supporting Files */,
+			);
+			path = CoreCode;
+			sourceTree = "<group>";
+		};
+		0524E071166608BC005FC952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0524E072166608BC005FC952 /* CoreCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0536621C16648529008314AB /* RTRichEditor */ = {
@@ -854,36 +876,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0505A0D21637D30000A1291B /* Headers */ = {
+		0524E081166609A9005FC952 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0505A0D31637D30400A1291B /* CoreCode.h in Headers */,
-				0505A0E01637D88D00A1291B /* Reachability.h in Headers */,
-				053663B716648529008314AB /* RTRichEditor.h in Headers */,
-				0502E5B91659C98700E76E39 /* MCSegmentedControl.h in Headers */,
-				0502E5BB1659C98700E76E39 /* DCRoundSwitch.h in Headers */,
-				0502E5BD1659C98700E76E39 /* DCRoundSwitchKnobLayer.h in Headers */,
-				0502E5BF1659C98700E76E39 /* DCRoundSwitchOutlineLayer.h in Headers */,
-				0502E5B71659C98700E76E39 /* Plist.h in Headers */,
-				0502E5C11659C98700E76E39 /* DCRoundSwitchToggleLayer.h in Headers */,
-				0502E5C31659C98700E76E39 /* DatabaseHelper.h in Headers */,
-				053663B916648529008314AB /* TGJSBridge.h in Headers */,
-				0505A0D41637D30700A1291B /* CoreCode-Prefix.pch in Headers */,
+				0524E082166609BC005FC952 /* Plist.h in Headers */,
+				0524E083166609BC005FC952 /* RTRichEditor.h in Headers */,
+				0524E084166609BC005FC952 /* TGJSBridge.h in Headers */,
+				0524E085166609BC005FC952 /* MCSegmentedControl.h in Headers */,
+				0524E086166609BC005FC952 /* DCRoundSwitch.h in Headers */,
+				0524E087166609BC005FC952 /* DCRoundSwitchKnobLayer.h in Headers */,
+				0524E088166609BC005FC952 /* DCRoundSwitchOutlineLayer.h in Headers */,
+				0524E089166609BC005FC952 /* DCRoundSwitchToggleLayer.h in Headers */,
+				0524E08A166609BC005FC952 /* Reachability.h in Headers */,
+				0524E08B166609BC005FC952 /* CoreCode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0505A0C01637D25600A1291B /* CoreCode */ = {
+		0524E06D166608BC005FC952 /* CoreCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0505A0CF1637D25600A1291B /* Build configuration list for PBXNativeTarget "CoreCode" */;
+			buildConfigurationList = 0524E077166608BC005FC952 /* Build configuration list for PBXNativeTarget "CoreCode" */;
 			buildPhases = (
-				0505A0BD1637D25600A1291B /* Sources */,
-				0505A0BE1637D25600A1291B /* Frameworks */,
-				0505A0BF1637D25600A1291B /* Resources */,
-				0505A0D21637D30000A1291B /* Headers */,
+				0524E06A166608BC005FC952 /* Sources */,
+				0524E06B166608BC005FC952 /* Frameworks */,
+				0524E081166609A9005FC952 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -891,8 +910,8 @@
 			);
 			name = CoreCode;
 			productName = CoreCode;
-			productReference = 0505A0C11637D25600A1291B /* CoreCode.framework */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 0524E06E166608BC005FC952 /* libCoreCode.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -915,61 +934,64 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0505A0C01637D25600A1291B /* CoreCode */,
+				0524E06D166608BC005FC952 /* CoreCode */,
+				0524E07A16660962005FC952 /* Framework */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		0505A0BF1637D25600A1291B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		0524E0801666097B005FC952 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0505A0CD1637D25600A1291B /* InfoPlist.strings in Resources */,
+			);
+			inputPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/${SF_TARGET_NAME}\"\n\n#echo \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"> mp.txt\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/${SF_TARGET_NAME}\"";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0505A0BD1637D25600A1291B /* Sources */ = {
+		0524E06A166608BC005FC952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0505A0DC1637D6BD00A1291B /* CoreCode.m in Sources */,
-				0505A0E11637D88D00A1291B /* Reachability.m in Sources */,
-				0502E5B81659C98700E76E39 /* Plist.m in Sources */,
-				0502E5BA1659C98700E76E39 /* MCSegmentedControl.m in Sources */,
-				0502E5BC1659C98700E76E39 /* DCRoundSwitch.m in Sources */,
-				0502E5BE1659C98700E76E39 /* DCRoundSwitchKnobLayer.m in Sources */,
-				0502E5C01659C98700E76E39 /* DCRoundSwitchOutlineLayer.m in Sources */,
-				0502E5C21659C98700E76E39 /* DCRoundSwitchToggleLayer.m in Sources */,
-				0502E5C41659C98700E76E39 /* DatabaseHelper.m in Sources */,
-				053663B816648529008314AB /* RTRichEditor.m in Sources */,
-				053663BA16648529008314AB /* TGJSBridge.m in Sources */,
+				0524E09A16660B68005FC952 /* Plist.m in Sources */,
+				0524E09B16660B68005FC952 /* RTRichEditor.m in Sources */,
+				0524E09C16660B68005FC952 /* TGJSBridge.m in Sources */,
+				0524E09D16660B68005FC952 /* MCSegmentedControl.m in Sources */,
+				0524E09E16660B68005FC952 /* DCRoundSwitch.m in Sources */,
+				0524E09F16660B68005FC952 /* DCRoundSwitchKnobLayer.m in Sources */,
+				0524E0A016660B68005FC952 /* DCRoundSwitchOutlineLayer.m in Sources */,
+				0524E0A116660B68005FC952 /* DCRoundSwitchToggleLayer.m in Sources */,
+				0524E0A216660B68005FC952 /* DatabaseHelper.m in Sources */,
+				0524E0A316660B68005FC952 /* Reachability.m in Sources */,
+				0524E076166608BC005FC952 /* CoreCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		0505A0CB1637D25600A1291B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0505A0CC1637D25600A1291B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		0524E07F16660979005FC952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0524E06D166608BC005FC952 /* CoreCode */;
+			targetProxy = 0524E07E16660979005FC952 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0505A06F1637C1E000A1291B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -982,6 +1004,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -995,13 +1018,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1011,54 +1035,58 @@
 			};
 			name = Release;
 		};
-		0505A0D01637D25600A1291B /* Debug */ = {
+		0524E078166608BC005FC952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/CoreCode.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreCode/CoreCode-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "CoreCode/CoreCode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
-				MACH_O_TYPE = mh_object;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACH_O_TYPE = staticlib;
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				PUBLIC_HEADERS_FOLDER_PATH = CoreCode.framework/Headers;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		0505A0D11637D25600A1291B /* Release */ = {
+		0524E079166608BC005FC952 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
-				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/CoreCode.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreCode/CoreCode-Prefix.pch";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "CoreCode/CoreCode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
-				MACH_O_TYPE = mh_object;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				ONLY_ACTIVE_ARCH = NO;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
+				PUBLIC_HEADERS_FOLDER_PATH = CoreCode.framework/Headers;
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		0524E07C16660962005FC952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0524E07D16660962005FC952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1074,11 +1102,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0505A0CF1637D25600A1291B /* Build configuration list for PBXNativeTarget "CoreCode" */ = {
+		0524E077166608BC005FC952 /* Build configuration list for PBXNativeTarget "CoreCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0505A0D01637D25600A1291B /* Debug */,
-				0505A0D11637D25600A1291B /* Release */,
+				0524E078166608BC005FC952 /* Debug */,
+				0524E079166608BC005FC952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0524E07B16660962005FC952 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0524E07C16660962005FC952 /* Debug */,
+				0524E07D16660962005FC952 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,8 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIBezierPath.h>
+#import <UIKit/UIColor.h>
 
 @interface DCRoundSwitchOutlineLayer : CALayer
 

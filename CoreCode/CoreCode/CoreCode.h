@@ -2,12 +2,16 @@
 //  CoreCode.h
 //  CoreCode
 //
-//  Created by  rtsafe02 on 12-10-24.
+//  Created by  rtsafe02 on 12-11-28.
 //  Copyright (c) 2012年 ampy. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreGraphics/CGGeometry.h>
 
 @interface CoreCode : NSObject
--(void)TestShow;
+{
+  CGSize mp;
+}
+
 @end

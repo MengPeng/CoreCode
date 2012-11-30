@@ -17,11 +17,13 @@
 {
     TGJSBridge *jsBridge;
     UIActivityIndicatorView *waiting;
+  NSString *content;
 }
 
 @property (assign,nonatomic)  id<RTRichEditorDelegate> EditorDelegate;
 
 -(void) load:(NSString *)strServerUrl;
+-(void) load:(NSString *)strServerUrl Content:(NSString *)text;
 
 //在代理中获取内容
 -(void)GetContent;

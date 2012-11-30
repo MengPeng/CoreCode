@@ -10,6 +10,7 @@
 //
 
 #import "DCRoundSwitchKnobLayer.h"
+#import <UIKit/UIColor.h>
 
 CGGradientRef CreateGradientRefWithColors(CGColorSpaceRef colorSpace, CGColorRef startColor, CGColorRef endColor);
 

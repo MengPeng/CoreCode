@@ -11,6 +11,11 @@
 
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIColor.h>
+#import <UIKit/UIFont.h>
+#import <UIKit/UIBezierPath.h>
+#import <UIKit/UIStringDrawing.h>
+#import <UIKit/UIGraphics.h>
 
 @interface DCRoundSwitchToggleLayer : CALayer
 

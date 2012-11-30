@@ -73,8 +73,7 @@
 	CGContextSetLineWidth(context, 1.0);
 	CGContextStrokeEllipseInRect(context, knobRect);
 	CGContextSetShadowWithColor(context, CGSizeMake(0, 0), 0, NULL);
-	
-    
+  
 	// strings
 	CGFloat textSpaceWidth = (self.bounds.size.width / 2) - (knobRadius / 2);
     
